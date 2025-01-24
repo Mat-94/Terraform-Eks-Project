@@ -34,4 +34,30 @@ Generate and configure secret access keys in Jenkins
 Jenkins pipeline was built with the script as seen in the image below
 
 
+![Screenshot (309)](https://github.com/user-attachments/assets/d0fd9878-6188-4b7d-98bd-538b54f29ce4)
+
+
+Challenges Encountered
+
+GitHub Code Not Found
+
+Issue: The pipeline failed to locate the code in the GitHub repository.
+
+Resolution: Identified a wrong name reference in the Jenkins configuration. Corrected it, and the pipeline succeeded.
+
+Indentation Problems in Groovy Script
+
+Issue: Errors due to improper indentation in the pipeline script.
+
+Resolution: Carefully reviewed and corrected the indentation to align with Groovy syntax requirements.
+
+Skills and Tools Highlighted
+
+Skills: Debugging, Jenkins pipeline creation, AWS CLI configuration, Terraform management.
+
+Tools: Jenkins, Terraform, AWS CLI, GitHub.
+
+
+
+
 
